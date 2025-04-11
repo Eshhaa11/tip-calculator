@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./Tip.css"
 
-function Tip () {
+function Tip ()  {
+    const [purchase, setPurchase] = useState("")
     return (
         <div>
             <h1>Tip Calculator</h1>
