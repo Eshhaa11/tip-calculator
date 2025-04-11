@@ -16,6 +16,7 @@ function Tip ()  {
             onChange={(e) => setPurchase(e.target.value)}
         />
         <p>Tip: KES {tip}</p>
+        <p>Total: KES {isNaN}</p>
         </div>
     )
 }
