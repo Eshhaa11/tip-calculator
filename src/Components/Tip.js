@@ -22,4 +22,3 @@ function Tip() {
 }
 
 export default Tip;
-https://github.com/Eshhaa11/tip-calculator
