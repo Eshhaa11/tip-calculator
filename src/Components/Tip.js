@@ -13,6 +13,7 @@ function Tip ()  {
             type="number"
             placeholder="Enter the amount in Ksh"
             value={purchase}
+            onChange={(e) => setPurchase(e.target.value)}
             />
         </div>
     )
