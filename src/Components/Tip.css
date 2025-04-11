@@ -11,6 +11,6 @@ body {
   border-radius: 10px;
 }
   
-.tip-box input { 
-    
+.tip-cont input { 
+    width: 200px;
 }
