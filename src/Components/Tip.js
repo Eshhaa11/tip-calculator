@@ -7,7 +7,7 @@ function Tip ()  {
     const total = Number(purchase) + tip;
     
     return (
-        <div>
+        <div className="tip-cont">
             <h1>Tip Calculator</h1>
         </div>
     )
