@@ -11,12 +11,12 @@ function Tip() {
       <h1>Tip Calculator</h1>
       <input
         type="number"
-        placeholder="Enter the amount in Ksh"
+        placeholder="Enter the amount"
         value={purchase}
         onChange={(e) => setPurchase(e.target.value)}
       />
-      <p>Tip: KES {tip}</p>
-      <p>Total: KES {isNaN(total) ? 0 : total}</p>
+      <p>Tip: {tip}</p>
+      <p>Total:  {isNaN(total) ? 0 : total}</p>
     </div>
   );
 }
