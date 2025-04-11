@@ -3,7 +3,9 @@ import "./Tip.css"
 
 function Tip ()  {
     const [purchase, setPurchase] = useState("")
-    const tip = purchase >= 1000 ? Math.floor(purhcase / 1000) * 50 : 0; 
+    const tip = purchase >= 1000 ? Math.floor(purhcase / 1000) * 50 : 0;
+    const total = Number(purchase) + tip;
+    
     return (
         <div>
             <h1>Tip Calculator</h1>
