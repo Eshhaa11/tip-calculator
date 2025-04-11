@@ -12,6 +12,7 @@ function Tip ()  {
             <input 
             type="number"
             placeholder="Enter the amount in Ksh"
+            value={purchase}
             />
         </div>
     )
