@@ -8,7 +8,7 @@ function Tip() {
 
   return (
     <div className="tip-cont">
-      <h1>Tip Calculator</h1>
+      <h1>Tip Calculator 💸</h1>
       <input
         type="number"
         placeholder="Enter the amount"
