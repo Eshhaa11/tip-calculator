@@ -7,3 +7,5 @@ function Tip () {
         </div>
     )
 }
+
+export default Tip;
