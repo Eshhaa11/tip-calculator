@@ -1,4 +1,6 @@
-# 💰 Tip Calculator
+ ![App Screenshot](src/assets/tip.jpg)
+ 
+ # 💰 Tip Calculator
 
 A simple **React** application that helps users calculate a tip based on their purchase amount. If a purchase is above **KES 1000**, a **KES 50** tip is added for every **KES 1000** spent.
 
